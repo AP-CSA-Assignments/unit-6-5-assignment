@@ -8,27 +8,18 @@ public class Main
     
   }
 
-  public static int countLength(String[] arr, int targetLength)
+  public static void reverse(String[] arr)
   {
-    // replace with your code
+
+  }
+
+  public int product(int[] arr)
+  {
     return 0;
   }
 
-  public static int indexOf(double[] arr, double target)
+  public double average(double[] arr)
   {
-    // replace with your code
-    return -1;
-  }
-
-  public static boolean hasDuplicates(int[] arr)
-  {
-    // replace with your code
-    return false;
-  }
-
-  public static String findMode(String[] arr)
-  {
-    // replace with your code
-    return null;
+    return 0.0;
   }
 }
