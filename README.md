@@ -1,4 +1,4 @@
-# unit-6-4-assignment
+# unit-6-5-assignment
 
 ## Git Config
 ```
@@ -22,26 +22,30 @@ After you compile the shape classes, you only need to compile and run `Main.java
 
 # Instructions  
 
-## countLength
-Write the `countLength` method, that takes in an array of `Strings`, and a target length (> 0), and returns the number of elements whose length is equal to the target length.
+## Problem 1
+Write a method named `reverse` that takes in an array of Strings as parameter, and prints each String in reverse (as in, the word itself is printed in reverse; you do NOT need to reverse the order of the array).  Use a for-each loop in your solution.
+
 ```
-public static int countLength(String[] arr, int targetLength)
+Enter array length:
+4
+
+Enter values:
+hill
+mold
+tree
+lake
+
+Reversed:
+llih
+dlom
+eert
+ekal
 ```
 
-## indexOf
-Implement your own version of `indexOf` for an array of `double` values.  The method should return the index of the first occurrence of the `target` in the array, and should return -1, if the target cannot be found.
-```
-public static int indexOf(double[] arr, double target)
-```
-## hasDuplicates
-Write the method `hasDuplicates`, that takes in an array of `int` values, and returns `true` if there is at least one repeated element, and `false` if the entire array contains only unique elements.
+## Problem 2
+Write a method named `product` that takes in an array of integers as parameter, and returns the product of the elements of the array.  Use a for-each loop in your solution.
 
-Use a combination of the algorithms we saw previously.
-```
-public static boolean hasDuplicates(int[] arr)
-```
-## findMode
-Write the method `findMode`, that takes in an array of `Strings`, and returns the element that appears the most often in the array.  If there are multiple modes, then only return one of them.
-```
-public static String findMode(String[] arr)
-```
+## Problem 3
+Write a method named `average` that takes in an array of doubles as parameter, and returns the average of the elements of the array.  Use a for-each loop in your solution.
+
+  
